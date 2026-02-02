@@ -1,0 +1,12 @@
+# Optional: basic Netlify config for clean URLs later if you want.
+# For now, this file can stay as-is.
+
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
