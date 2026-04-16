@@ -100,9 +100,10 @@ body{
   justify-content:center;
   margin-bottom:18px;
 }
-.logo{
+.logo {
   width:min(440px, 78vw);
   height:auto;
+  padding: 20px;
 }
 
 h1{
